@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "plugins": ["eslint-comments", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:eslint-comments/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "error",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "no-void": "off",
+    "prettier/prettier": "error",
+    "import/extensions": "off"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  }
+}
